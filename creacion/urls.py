@@ -3,4 +3,4 @@ from .views import *
 
 urlpatterns = [
     path('crear', crear, name='crear'),
-    path('|', listar, name='listar')]
+    path('', listar, name='listar')]
